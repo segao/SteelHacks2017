@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>SteelHacks 2017</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
