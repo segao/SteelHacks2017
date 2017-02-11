@@ -73,14 +73,14 @@ def detect_isSafe(botLeft, topRight, faces, isBabySafe):
         # message = client.messages.create(to="+16105055536", from_="+14848044280", body="BABY IS IN DANGER!")
         # Post that baby is in danger
         if isBabySafe is True:
-            client.messages.create(to="+16105055536", from_="+14848044280", body="BABY IS IN DANGER!")
+            # client.messages.create(to="+16105055536", from_="+14848044280", body="BABY IS IN DANGER!")
             isBabySafe = False
             # Has not been updated
             executeSQL(1)
         return (danger_color, isBabySafe)
 
     if isBabySafe is False:
-        client.messages.create(to="+16105055536", from_="+14848044280", body="nvm you good")
+        # client.messages.create(to="+16105055536", from_="+14848044280", body="nvm you good")
         isBabySafe = True
         executeSQL(2)
 
