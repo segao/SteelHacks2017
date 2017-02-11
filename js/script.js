@@ -19,5 +19,6 @@ function baby() {
 		leg.style.webkitAnimationName = "leg";
 		escape.style.webkitAnimationName = "escape";
 		rays.style.webkitAnimationName = "flash";
+		document.title = "Alert!";
 	}
 }
