@@ -1,9 +1,15 @@
+html {
+	max-width: 1200px;
+	max-height: 800px;
+}
 body {
-		background: #161616 url("../img/stop.png") no-repeat fixed center;
-		background-size: 600px;
-		font-family: 'PT Sans', sans-serif;
-		color: #FFFFFF;
-		overflow: hidden;
+	max-width: 1200px;
+	max-height: 800px;
+	background: #161616 url("../img/stop.png") no-repeat fixed center;
+	background-size: 600px;
+	font-family: 'PT Sans', sans-serif;
+	color: #FFFFFF;
+	overflow: hidden;
 }
 
 #rays {
